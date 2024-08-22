@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default (Light Mode) */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #36056d;
+  color: #e0e0e0;
+}
+
+/* Add other dark mode styles here */
+.app-container.dark {
+  background-color: black;
+}
+
+.hover-effect:hover {
+  border-color: #a0a0a0; /* Adjust as needed */
+  transform: scale(1.05);
+  transition-duration: 300ms;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition-duration: 200ms;
+}
